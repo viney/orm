@@ -36,7 +36,7 @@ func init() {
 		return
 	}
 
-	psql, err := sql.Open("postgres", "host=192.168.1.138 port=5432 user=postgres password=admin dbname=t2m sslmode=disable")
+	psql, err := sql.Open("postgres", "host=192.168.1.241 port=4932 user=viney password=admin dbname=test sslmode=disable")
 	checkErr(err)
 
 	// new db
